@@ -1,0 +1,29 @@
+Features Projeto Bank Account -----------------------------------------------
+
+Configurar Projeto SpringBoot
+Configurar SpringData
+Mapeamento do Banco no Java (com Hibernate)
+Gerenciamento do Banco (Configurar com FlyWay)
+Modelar Entidades Hibernate JPA
+Introducao ao SpringData
+
+Implementar Cadastro de Conta Bancaria
+	- Construcao da API do VIACEP (Rest)
+	- Consumir a API do VIACEP para buscar endereco do cliente
+
+Implementar deposito
+Implementar saque
+	- Introducao sobre Cache
+	- Banco de Dados em Memoria (Intro Redis)
+	- Solucao de limite de saque por dia com Redis
+
+Implementar transferencia entre contas (Limite de saque)
+Implementar uma funcionalidade de concessao de emprestimo
+	- Intro sobre processos sync vs async
+	- Intro sobre messageria
+	- Intro sobre RabbitMQ
+
+Implementar uma feature de negativacao
+	- Vamos criar um scheduler (agendador) para verificar os inadimplentes
+	- Consumir uma API do SERASA para adicionar ou remover os negativados
+	- Integracao via Feign Client (POST, PUT, GET, PATCH)

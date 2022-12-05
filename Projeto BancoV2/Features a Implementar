@@ -1,0 +1,67 @@
+Features a Implementar
+
+ - Cadastrar de Cliente
+ - Cadastrar Conta
+ - Autenticar Cliente
+ - Inativar Conta
+ - Saldo
+ - Deposito
+ - Saque
+ - Transferencia
+ - Extrato
+ - Emprestimpo
+
+Tabelas:
+	
+	Conta Bancaria: 
+		ID Cliente,
+		Numero Agencia,
+		Saldo,
+		Data Cadastro,
+		Tipo Conta,
+		Data Inativacao
+
+	Cliente: 
+		Nome,
+		Data de Nasc:,
+		Telefone,
+		Email,
+		Tipo Pessoa (PF/PJ),
+		Documento, 
+		ID endereco.
+
+	Endereco:
+		Cidade,
+		Estado (UF),
+		Logradouro,
+		Numero,
+		CEP,
+		Complemento.
+
+	Movimentacoes
+		Valor
+		Tipo de Operacao,
+		Data da Operacao,
+		Tipo da Movimentacao,
+		ID da Conta,
+		ID do Conta Transacao,
+
+	Acesso:
+		ID Conta,
+		Cliente,
+		Senha
+
+	1 Cliente tem varias Contas,
+	1 Conta so tem um Cliente
+
+	1 Conta tem varia movimentacoes,
+	1 Movimentacao so tem 1 conta
+
+	1 Acesso possui uma conta,
+	1 Conta possui um acesso
+
+	1 Cliente tem varios acessos,
+	1 Acesso so pode ter um cliente
+
+	1 Endereco pode ter varios Clientes
+	1 Cliente so pode ter um endereco

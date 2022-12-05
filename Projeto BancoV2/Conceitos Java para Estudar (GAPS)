@@ -1,0 +1,85 @@
+Conceitos Java p/ Estudar (GAPS)
+
+1 - Collection
+	- List
+	- Map
+	- Set
+	- LinkedList
+	- Stream
+
+4 - IO, Input e Output
+	- Leitura de Arquivo
+	- Escrita de Arquivo
+
+5 - Generics
+	- Criar meu proprio arrayList 
+
+6 - Threads
+7 - Reflection
+	- annotations
+	- metadados
+
+8 - Manipulacao de Data
+	- Formatacao de Data
+	- Milisegundos
+
+9 - SpringFramework
+	- Injecao de dependencia
+	- Beans
+
+10 - SpringData
+	- Config
+	- namingQuery
+	- nativeQuery
+	- especifications
+	- customQueries
+
+11 - Hibernate
+	- mapeamento E-R
+
+12 - SpringBoot
+	- Conceitos Basicos
+	- Entendendo Properties
+
+13 - SpringWeb
+	- Criacao de Controller / APIs
+	- Estruturacao de Proj. com Arq. MVC
+
+14 - Processos Async
+	- Entendendo o problema dos processos sync
+	- usando async do Spring
+	- config RabbitMQ e SpringBoot
+	- postando mensagem na fila do rabbit
+	- consumindo uma mensagem
+
+15 - Introducao a Caching
+	- Entendendo Cache
+	- Usando cache nativo do Spring\
+	- Config Redis e SpringBoot
+	- Adicionando cache no Redis
+	- Invalidando no Redis
+
+16 - Orientacao a Objetos 
+	- Classe Abstrata
+	- Interface
+	- Polimosrfismo
+	- Encapsulamento
+	- Functional Interface
+		- Lambda
+		- Method Reference
+		- Thread
+
+17 - Entendendo Maven
+	- Criacao de projeto Commons
+	- Import de Lib do Commons no Projeto Principal via Dependencia no POM
+
+18 - Consumindo APIs com Spring
+	- Rest template
+	- OpenFeign
+
+19 - Gestao de Mudancas na Estrutura do Banco de Dados com FlyWay
+
+20 - Implementacao de trigger de processos
+	- Entendendo Cron
+	- Implementando Scheduler com Spring
+	-
