@@ -12,10 +12,10 @@ import java.io.Serializable;
 public class Address implements Serializable {
 
     private Long id;
-    private Integer cep;
+    private String cep;
     private String city;
     private String state;
-    private String number;
     private String address;
+    private String houseNumber;
     private String secondAddress;
 }

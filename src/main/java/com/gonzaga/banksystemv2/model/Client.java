@@ -11,6 +11,7 @@ import java.util.Date;
 
 public class Client implements Serializable {
 
+    private Integer id;
     private String name;
     private String email;
     private Integer phone;
