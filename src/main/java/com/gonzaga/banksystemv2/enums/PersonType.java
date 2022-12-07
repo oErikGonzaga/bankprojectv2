@@ -1,4 +1,4 @@
-package com.gonzaga.banksystemv2.Enum;
+package com.gonzaga.banksystemv2.enums;
 
 public enum PersonType {
 
