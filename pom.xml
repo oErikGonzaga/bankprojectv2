@@ -18,16 +18,26 @@
 	</properties>
 	<dependencies>
 
+		<!--JPA, Cria camada de acesso aos dados-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 
+		<!--Driver de conexão com o Banco MySQL-->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>8.0.30</version>
 		</dependency>
+
+		<!--FlyWay, Criação e Gerenciamento do Database
+		<dependency>
+			<groupId>org.flywaydb</groupId>
+			<artifactId>flyway-core</artifactId>
+			<version>5.2.4</version>
+		</dependency>
+		-->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
