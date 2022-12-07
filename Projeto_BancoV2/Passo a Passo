@@ -13,3 +13,14 @@ Construção do Projeto:
 		- Criando Classe Model: Address, Account e Client
 		- Mapa do Fluxo e Imagens Front
 		- Criando Estrutura para criação de tabela no DB
+
+	Dia: 07/12
+
+		- Criação dos ENUM
+		- Adicionando novas colunas nas entidades do DB
+		- Atualizando Valores nos Models
+		- Criando diretório com SQL, DDL e DML.
+		- Mapeamento da Classe Model utilizando "Hibernate"
+		- Adicionando Annotations do Lombok:
+		   para get, setter e builder.
+		- Criação dos Repositórios com JpaRepository (CRUD)
