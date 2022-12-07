@@ -1,4 +1,4 @@
-Features a Implementar
+Estrutura Banco de Dados
 
  - Cadastrar de Cliente
  - Cadastrar Conta
@@ -7,30 +7,30 @@ Features a Implementar
  - Saldo
  - Deposito
  - Saque
- - Transferencia
+ - Transferência
  - Extrato
- - Emprestimpo
+ - Empréstimo
 
 Tabelas:
-	
-	Conta Bancaria: 
+
+	Conta Bancaria:
 		ID Cliente,
 		Numero Agencia,
 		Saldo,
 		Data Cadastro,
 		Tipo Conta,
-		Data Inativacao
+		Data Inativação.
 
-	Cliente: 
+	Cliente:
 		Nome,
-		Data de Nasc:,
+		Data de Nascimento,
 		Telefone,
 		Email,
 		Tipo Pessoa (PF/PJ),
-		Documento, 
-		ID endereco.
+		Documento,
+		ID endereço.
 
-	Endereco:
+	Endereço:
 		Cidade,
 		Estado (UF),
 		Logradouro,
@@ -38,30 +38,30 @@ Tabelas:
 		CEP,
 		Complemento.
 
-	Movimentacoes
+	Movimentações
 		Valor
-		Tipo de Operacao,
-		Data da Operacao,
-		Tipo da Movimentacao,
+		Tipo de Operação,
+		Data da Operação,
+		Tipo da Movimentação,
 		ID da Conta,
-		ID do Conta Transacao,
+		ID do Conta Transação.
 
 	Acesso:
 		ID Conta,
 		Cliente,
-		Senha
+		Senha.
 
 	1 Cliente tem varias Contas,
 	1 Conta so tem um Cliente
 
-	1 Conta tem varia movimentacoes,
-	1 Movimentacao so tem 1 conta
+	1 Conta tem varia movimentações,
+	1 Movimentação so tem 1 conta
 
 	1 Acesso possui uma conta,
 	1 Conta possui um acesso
 
-	1 Cliente tem varios acessos,
+	1 Cliente tem vários acessos,
 	1 Acesso so pode ter um cliente
 
-	1 Endereco pode ter varios Clientes
-	1 Cliente so pode ter um endereco
+	1 Endereço pode ter vários Clientes
+	1 Cliente so pode ter um endereço
