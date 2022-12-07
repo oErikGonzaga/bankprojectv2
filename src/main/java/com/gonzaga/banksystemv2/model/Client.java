@@ -1,10 +1,13 @@
 package com.gonzaga.banksystemv2.model;
 
+import com.gonzaga.banksystemv2.Enum.PersonType;
+
 import java.io.Serializable;
+import java.time.LocalDate;
 import java.util.Date;
 
 /*
-    typePerson utilizará ENUM,
+    personType utilizará ENUM,
     devido o fato de existirem somente 2 valores
     Pessoa Física PF e Pessoa Jurica PJ.
  */
@@ -15,9 +18,9 @@ public class Client implements Serializable {
     private String name;
     private String email;
     private Integer phone;
-    private Date birthdate;
-    private Enum typePerson;
+    private Long addressId;
     private Integer document;
-    private Integer addressId;
+    private LocalDate birthdate;
+    private PersonType personType;
 
 }

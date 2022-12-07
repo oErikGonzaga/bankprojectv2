@@ -1,18 +1,21 @@
 package com.gonzaga.banksystemv2.model;
 
+import com.gonzaga.banksystemv2.Enum.AccountType;
+
 import java.io.Serializable;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 public class Account implements Serializable {
 
-    private Integer id;
-    private Integer number;
-    private Integer balance;
+    private Long id;
+    private Long number;
+    private Long clientId;
+    private Double balance;
     private Integer password;
-    private Integer clientId;
-    private Enum accountType;
-    private LocalDate dateActivation;
-    private LocalDate dateDeactivation;
+    private AccountType accountType;
+    private LocalDateTime dateActivation;
+    private LocalDateTime dateDeactivation;
 
 
 }
