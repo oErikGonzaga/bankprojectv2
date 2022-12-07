@@ -10,5 +10,5 @@ Construção do Projeto:
 		- Instalando Maven no Mac
 		- Config SpringData no Projeto
 		- Adicionando dependências
-		- Criando Classe Model: Address
+		- Criando Classe Model: Address, Account e Client
 		- Mapa Fluxo e Imagens Front

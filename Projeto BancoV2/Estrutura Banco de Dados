@@ -17,11 +17,16 @@ Tabelas:
 		ID Cliente,
 		Numero Agencia,
 		Saldo,
-		Data Cadastro,
 		Tipo Conta,
+    Data Cadastro,
 		Data Inativação.
 
-	Cliente:
+  Acesso:
+      ID Conta,
+      Cliente,
+      Senha.
+
+  Cliente:
 		Nome,
 		Data de Nascimento,
 		Telefone,
@@ -46,10 +51,6 @@ Tabelas:
 		ID da Conta,
 		ID do Conta Transação.
 
-	Acesso:
-		ID Conta,
-		Cliente,
-		Senha.
 
 	1 Cliente tem varias Contas,
 	1 Conta so tem um Cliente
