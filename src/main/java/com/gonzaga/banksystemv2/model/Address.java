@@ -23,4 +23,5 @@ public class Address implements Serializable {
     private String address;
     private String houseNumber;
     private String secondAddress;
+
 }

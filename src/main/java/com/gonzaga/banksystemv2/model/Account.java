@@ -17,5 +17,4 @@ public class Account implements Serializable {
     private LocalDateTime dateActivation;
     private LocalDateTime dateDeactivation;
 
-
 }

@@ -4,7 +4,6 @@ import com.gonzaga.banksystemv2.Enum.PersonType;
 
 import java.io.Serializable;
 import java.time.LocalDate;
-import java.util.Date;
 
 /*
     personType utilizará ENUM,
