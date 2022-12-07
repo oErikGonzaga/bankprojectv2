@@ -11,4 +11,5 @@ Construção do Projeto:
 		- Config SpringData no Projeto
 		- Adicionando dependências
 		- Criando Classe Model: Address, Account e Client
-		- Mapa Fluxo e Imagens Front
+		- Mapa do Fluxo e Imagens Front
+		- Criando Estrutura para criação de tabela no DB
