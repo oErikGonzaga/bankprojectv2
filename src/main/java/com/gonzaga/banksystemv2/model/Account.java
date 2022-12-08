@@ -22,8 +22,9 @@ public class Account implements Serializable {
     private Long id;
     private Long number;
 
-    @Column(name = "client_id")
-    private Long clientId;
+    @OneToOne
+    @JoinColumn(name = "client_id", referencedColumnName = "id")
+    private Client client;
     private Double balance;
     private Integer password;
 

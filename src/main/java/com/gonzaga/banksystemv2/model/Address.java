@@ -7,8 +7,7 @@ import java.io.Serializable;
 /*  Primeira Classe, seguindo padrão MVC (Camada Modelo).
     Implementando Serializable
     * Responsável pela conversão de um objeto em “bytes”,
-    útil para trafegar dados pela rede. *
- */
+    útil para trafegar dados pela rede. */
 
 //Lombok
 @Builder                // cria objetos sem precisarmos de construtores e sem métodos "setter"
@@ -24,8 +23,7 @@ public class Address implements Serializable {
 
     /*  @Column para indicar uma coluna especifica na entidade / tabelas
         caso o nome da variável seja igual ao da coluna,
-        não haverá necessidade de utilizar.
-     */
+        não haverá necessidade de utilizar. */
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
