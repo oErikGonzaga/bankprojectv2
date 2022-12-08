@@ -25,6 +25,8 @@ public class Client implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
+
+    @Column(nullable = false, length = 150)
     private String name;
     private String email;
     private Integer phone;

@@ -5,6 +5,7 @@ import jakarta.persistence.*;
 import lombok.*;
 
 import java.io.Serializable;
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @Builder
@@ -25,13 +26,15 @@ public class Account implements Serializable {
     @OneToOne
     @JoinColumn(name = "client_id", referencedColumnName = "id")
     private Client client;
-    private Double balance;
+
+    @Column(nullable = false, precision = 6) // precision garante que atenda a especificação (antes de chegar no banco)
     private Integer password;
+    private BigDecimal balance; // BigDecimal, usado para valores financeiros.
 
     @Column(name = "tp_account")
     private AccountType accountType;
 
-    @Column(name = "registration_dt")
+    @Column(name = "registration_dt", nullable = false) // Não pode ser null
     private LocalDateTime dateActivation;
 
     @Column(name = "deactivation_dt")
