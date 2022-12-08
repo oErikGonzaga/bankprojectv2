@@ -1,6 +1,6 @@
 package com.gonzaga.banksystemv2.enums;
 
-public enum DocumenteType {
+public enum DocumentType {
 
     CPF, CNPJ;
 
