@@ -31,13 +31,14 @@
 			<version>8.0.30</version>
 		</dependency>
 
-		<!--FlyWay, Criação e Gerenciamento do Database
+		<!--FlyWay, Criação e Gerenciamento do Database.
+		É uma ferramenta de migração, ela garante que
+		o DB esteja alinhado com o código -->
+
 		<dependency>
 			<groupId>org.flywaydb</groupId>
 			<artifactId>flyway-core</artifactId>
-			<version>5.2.4</version>
 		</dependency>
-		-->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

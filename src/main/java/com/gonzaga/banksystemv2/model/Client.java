@@ -38,7 +38,7 @@ public class Client implements Serializable {
         (FOREIGN KEY(address_id) REFERENCES address(id))  */
 
     @OneToOne
-    @JoinColumn (name = "address_id", referencedColumnName = "id")
+    @JoinColumn(name = "address_id", referencedColumnName = "id")
     private Address address;
 
     private Integer document;

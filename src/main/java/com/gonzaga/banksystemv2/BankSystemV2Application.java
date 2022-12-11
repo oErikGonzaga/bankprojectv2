@@ -6,12 +6,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class BankSystemV2Application implements CommandLineRunner {
-	@Override
-	public void run(String... args) throws Exception {
-	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(BankSystemV2Application.class, args);
 	}
 
+	@Override
+	public void run(String... args) throws Exception {
 
+	}
 }
