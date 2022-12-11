@@ -1,4 +1,4 @@
-package com.gonzaga.banksystemv2.model;
+package com.gonzaga.banksystemv2.models;
 
 import com.gonzaga.banksystemv2.enums.DocumentType;
 import com.gonzaga.banksystemv2.enums.PersonType;

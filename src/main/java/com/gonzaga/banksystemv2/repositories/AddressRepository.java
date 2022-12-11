@@ -1,6 +1,6 @@
-package com.gonzaga.banksystemv2.repository;
+package com.gonzaga.banksystemv2.repositories;
 
-import com.gonzaga.banksystemv2.model.Address;
+import com.gonzaga.banksystemv2.models.Address;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

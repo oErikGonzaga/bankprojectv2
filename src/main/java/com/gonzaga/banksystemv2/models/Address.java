@@ -1,4 +1,4 @@
-package com.gonzaga.banksystemv2.model;
+package com.gonzaga.banksystemv2.models;
 
 import jakarta.persistence.*;
 import lombok.*;
