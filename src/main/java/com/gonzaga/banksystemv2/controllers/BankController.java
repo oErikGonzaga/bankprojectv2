@@ -11,17 +11,27 @@ import org.springframework.web.bind.annotation.RestController;
     Um Controller é responsavel por:
     enviar requests e receber responses */
 
+/*  @Slf4j permite que coloquemos logs de informacoes
+    para indicar a evolucao do processo. (Em Producao
+    nos nao debugamos o projeto, utilizamos logs para indicar os steps)*/
+
 /*  @RestController: deixa nossa classe exposta,
     para ser acessada via api (Postman para testes) */
 
+@Slf4j
 @RestController
 public class BankController {
 
     // @PostMapping: cria um registro atraves do verbo Post (Http), através da URL de acesso.
     @ResponseStatus(HttpStatus.CREATED) // "Settando" código de Sucesso Default 201.
     @PostMapping("api/create")
-    public String createAccounte(){
-        return "Sucess";
+    public Account createAccount(@RequestBody AccountRequest request){
+        log.info("BankController.createAccount init");
+
+        Account account = bankService.createAccount(request);
+        log.info("BankController.createAccount end");
+
+        return account;
     }
 
 }
