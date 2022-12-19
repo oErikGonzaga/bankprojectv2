@@ -1,6 +1,5 @@
 package com.gonzaga.banksystemv2.controllers;
 
-
 import com.gonzaga.banksystemv2.models.Account;
 import com.gonzaga.banksystemv2.requests.AccountRequest;
 import com.gonzaga.banksystemv2.services.BankService;
@@ -16,10 +15,6 @@ import org.springframework.web.bind.annotation.RestController;
     nossos End Points, nossa porta de entrada da aplicação.
     Um Controller é responsavel por:
     enviar requests e receber responses */
-
-/*  @Slf4j permite que coloquemos logs de informacoes
-    para indicar a evolucao do processo. (Em Producao
-    nos nao debugamos o projeto, utilizamos logs para indicar os steps)*/
 
 /*  @RestController: deixa nossa classe exposta,
     para ser acessada via api (Postman para testes) */
@@ -42,5 +37,4 @@ public class BankController {
 
         return account;
     }
-
 }

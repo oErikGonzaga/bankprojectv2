@@ -9,5 +9,6 @@ Ela serve pra que outras classes implemente seus metodos. */
 
 public interface BankService {
 
+
     Account createAccount(AccountRequest request);
 }
