@@ -1,11 +1,9 @@
 package com.gonzaga.banksystemv2.services;
 
 import com.gonzaga.banksystemv2.models.Account;
+import com.gonzaga.banksystemv2.requests.AccountRequest;
 
-/* 1.º Pacote de Serviços e classe BankServices
-
- */
 public interface BankService {
 
-    Account createAccount();
+    Account createAccount(AccountRequest request);
 }
