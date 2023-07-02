@@ -32,7 +32,7 @@ public class BankServiceImpl implements BankService {
         Address address = Address.builder().build();
         Client client = Client.builder().build();
 
-        Account accounSaved = accountRepository.save(account);
+        Account accountSaved = accountRepository.save(account);
         Address addressSaved = addressRepository.save(address);
         Client clientSaved = clientRepository.save(client);
 
@@ -43,5 +43,5 @@ public class BankServiceImpl implements BankService {
 /*  Resumindo os Comandos:
     Repository ->   Banco de Dados
     Services ->     Logica de Negocios
-    Controller ->   ENtrada dos nossos metodos.
+    Controller ->   Entrada dos nossos metodos.
  */
